@@ -1,6 +1,7 @@
 package com.jadhavrupesh22.hilt_base.viewmodel
 
 import androidx.hilt.lifecycle.ViewModelInject
+import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.liveData
 import com.jadhavrupesh22.hilt_base.model.BlogCacheEntity

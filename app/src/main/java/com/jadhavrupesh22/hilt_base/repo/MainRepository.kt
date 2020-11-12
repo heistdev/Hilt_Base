@@ -9,7 +9,6 @@ constructor(
     private val blogDao: BlogDao,
 ) {
 
-
     suspend fun getAllBlogs(): List<BlogCacheEntity> {
         return blogDao.get()
     }
